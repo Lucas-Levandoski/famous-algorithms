@@ -1,5 +1,5 @@
 
-list = [1, 4, 2, 5, 6, 7, 3, 9, 8, 0]
+list = [1, 4, 9, 5, 7, 6, 3, 2, 8, 0]
 
 def booble_sort(arr):
   executions = 0

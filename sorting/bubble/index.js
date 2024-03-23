@@ -1,5 +1,6 @@
 
-const list = [1, 4, 2, 5, 6, 7, 3, 9, 8, 0];
+const list = [1, 4, 9, 5, 7, 6, 3, 2, 8, 0];
+
 let executions = 0;
 
 function BoobleSort(items) {
