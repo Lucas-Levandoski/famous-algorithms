@@ -1,3 +1,4 @@
+import { logTimeAndHeap } from '../../../utils/index.js';
 
 const list = [1, 4, 9, 5, 7, 6, 3, 2, 8, 0];
 
@@ -14,4 +15,4 @@ function BoobleSort(items) {
   }
 }
 
-BoobleSort(list);
+logTimeAndHeap(BoobleSort, list);
