@@ -31,6 +31,12 @@ export class Stack {
     return this.#elements.at(-1);
   }
 
+  set top(element) {
+    if(this.length === 0) return null;
+
+    this.#elements[this.length - 1] = element;
+  }
+
   [util.inspect.custom](depth, options) {
     return this.#elements.reverse().join('->');
   }
