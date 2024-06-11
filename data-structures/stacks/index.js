@@ -14,7 +14,7 @@ export class Stack {
     this.length ++;
   }
 
-  remove() {
+  pop() {
     if(this.length === 0) return null;
 
     const res = this.#elements.at(-1);
@@ -25,7 +25,7 @@ export class Stack {
     return res;
   }
 
-  top() {
+  get top() {
     if(this.length === 0) return null;
 
     return this.#elements.at(-1);
